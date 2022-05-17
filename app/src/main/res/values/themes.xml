@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ProjectoSMA" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#EC6835</item>
+        <item name="colorPrimaryDark">@color/ic_icon_background</item>
+        <item name="colorAccent">@color/ic_icon_background</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ProjectoSMA.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ProjectoSMA.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ProjectoSMA.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
